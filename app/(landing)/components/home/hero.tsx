@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section id="hero-section" className="container mx-auto h-screen flex">
+    <section id="hero-section" className="container mx-auto h-screen flex ">
       <div className="relative self-center">
         <Image
           src="/images/img-basketball.png"
@@ -13,7 +13,7 @@ const HeroSection = () => {
           alt="image sporton"
           className="grayscale absolute left-0 -top-20"
         />
-        <div className="relative ml-15 w-full">
+        <div className="relative ml-40 w-full">
           <div className="text-primary italic">Friday Sale, 50%</div>
           <h1 className="font-extrabold text-[95px] italic bg-gradient-to-b leading-tight from-black to-[#979797] bg-clip-text text-transparent">
             WEAR YOUR <br /> TOP-QUALITY <br /> SPORTSWEAR
@@ -40,8 +40,8 @@ const HeroSection = () => {
         </div>
         <Image
           src="/images/img-hero.png"
-          width={623}
-          height={687.83}
+          width={700}
+          height={950}
           alt="image sporton hero"
           className="absolute -right-5 top-1/2 -translate-y-1/2"
         />
